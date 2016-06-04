@@ -1,3 +1,4 @@
-print("Hello, what is your name?")
-my_name = input()
-print("hello " + my_name)
+import numpy
+
+my_matrix = numpy.matrix('1, 2; 3, 4')
+print(my_matrix.getI() * my_matrix)
