@@ -1,3 +1,3 @@
-import fib
+from fib import fibonacci
 
-print(fib(99))
+print(fibonacci(9))
