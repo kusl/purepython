@@ -1,9 +1,5 @@
 # Fibonacci numbers module
 def fibonacci(n: int) -> int:
-    """
-
-    :type n: int
-    """
     if n == 0:
         return 0
     elif n == 1:
