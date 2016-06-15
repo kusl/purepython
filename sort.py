@@ -9,3 +9,4 @@ def bubble(bad_list):
                 is_sorted = False
                 bad_list[i], bad_list[i + 1] = bad_list[i + 1], bad_list[i]
                 print(bad_list)
+    return bad_list
