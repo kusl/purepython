@@ -1,4 +1,2 @@
-import random
-
-for i in range(10000):
-    print(random.random())
+if 1 == 1:
+    print("hello, world")
